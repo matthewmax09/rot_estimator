@@ -1,0 +1,6 @@
+<launch>
+  <node name="rot_estimator" pkg="rot_estimator" type="rot_estimator_node" output="screen" cwd="node"/>
+</launch>
+  <?ignore 
+  <node pkg="rosbag" type="play" name="player" output="screen" args="--wait-for-subscribers /home/airlab-xaviernx-2/Documents/try_again_ws/src/rot_estimator/scripts/2022-07-07-15-17-03.bag --topics /dvs/eventImage"/> 
+  ?>
